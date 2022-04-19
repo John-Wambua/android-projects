@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "403842143363",
+    "firebase_url": "https://the-arttic.firebaseio.com",
+    "project_id": "the-arttic",
+    "storage_bucket": "the-arttic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403842143363:android:6b189323e0adc84504f7b6",
+        "android_client_info": {
+          "package_name": "com.wambuacooperations.thearttic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403842143363-2jlj5oc2rmnl67hj96jdp77umtfnitrt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRgyiUEdCXNoCG3wUqARRqqKQwCMH-5yI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403842143363-2jlj5oc2rmnl67hj96jdp77umtfnitrt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wambuacooperations.droidcafe.MainActivity">
+    <item
+        android:id="@+id/aboutUS"
+        android:orderInCategory="5"
+        android:title="About Us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/order"
+        android:orderInCategory="1"
+        android:title="Order"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/add_shopping_cart"/>
+    <item
+        android:id="@+id/status"
+        android:orderInCategory="3"
+        android:title="Status"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_status"/>
+    <item
+        android:id="@+id/callUs"
+        android:title="Call Us"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_call_us"
+        />
+    <item
+        android:id="@+id/locateUs"
+        android:orderInCategory="4"
+        android:title="Locate Us"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_locate_us"/>
+</menu>

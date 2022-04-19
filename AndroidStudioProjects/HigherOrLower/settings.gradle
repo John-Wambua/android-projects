@@ -1,0 +1,2 @@
+rootProject.name='HigherOr Lower'
+include ':app'

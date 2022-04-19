@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "730085371983",
+    "firebase_url": "https://email-firebase-signin.firebaseio.com",
+    "project_id": "email-firebase-signin",
+    "storage_bucket": "email-firebase-signin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730085371983:android:ce82ec90016567d5fb7a3a",
+        "android_client_info": {
+          "package_name": "com.wambuacooperations.emailfirebasesignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730085371983-gtdrd8itekqil2pdqlh4qfl7mfoscbj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEF8hy7i4D_AMTpyqoT0og2p9ADyT_lNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730085371983-gtdrd8itekqil2pdqlh4qfl7mfoscbj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

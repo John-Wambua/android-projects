@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/recipe_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/primaryLightColor"
+         />
+
+    <TextView
+        android:id="@+id/recipe_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/recipe_image"
+        android:text="@string/recipe_title"
+        android:padding="10dp"
+        android:textColor="#ffff00"
+        android:layout_marginTop="4dp"
+        style="@style/TextAppearance.MaterialComponents.Headline5"/>
+
+    <TextView
+        android:id="@+id/recipe_prep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/recipe_title"
+        android:text="@string/prep_amp_cook_time_2hrs"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_prepare_time"
+        android:layout_marginTop="4dp"
+        style="@style/TextAppearance.MaterialComponents.Body1"/>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/recipe_prep"
+            android:background="@color/primaryLightColor"/>
+
+    <TextView
+        android:id="@+id/recipe_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_short_description"
+        android:padding="10dp"
+        android:layout_marginTop="4dp"
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        android:layout_below="@+id/line"
+        android:textStyle="italic"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

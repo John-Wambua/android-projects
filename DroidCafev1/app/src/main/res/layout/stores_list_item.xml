@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/store_image"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        app:srcCompat="@color/primaryLightColor"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/store_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/store_image"
+        android:text="Garden City"
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffeb3b"
+        android:background="@color/cardview_dark_background"/>
+
+    <TextView
+        android:id="@+id/store_open_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/store_name"
+        android:drawableStart="@drawable/ic_open_duration"
+        android:text="Open Daily from 7:00a.m"
+        android:textColor="@android:color/darker_gray"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/store_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/store_open_time"
+        android:fontFamily="@font/bad_script"
+        android:padding="10dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="Beautifully bright and open, this Droid Caffe comes to life with its funky design and cool movie posters dotted along the walls. Read more... " />
+    <View
+        android:id="@+id/store_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/store_description"
+        android:background="@color/icon_color"
+        />
+    <RatingBar
+        android:id="@+id/store_rating"
+        android:layout_below="@+id/store_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/ratingBarStyleSmall"
+        android:isIndicator="true"
+        android:numStars="5"
+        tools:rating="3"
+       android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:progressTint="@color/icon_color"
+        android:progressBackgroundTint="@android:color/holo_blue_dark"
+        android:stepSize="0.1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/store_rating"
+        android:orientation="horizontal"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:layout_weight="1"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:drawableStart="@drawable/ic_favorite_store"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:drawableStart="@drawable/ic_create_black_24dp"
+            android:text="Comment"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:text="Share"
+            android:layout_weight="1"
+            android:paddingEnd="10dp"
+            android:drawableStart="@drawable/ic_share"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+

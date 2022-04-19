@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_amp_cook_time_2hrs"><![CDATA[Prep & Cook Time: 2hrs]]></string>
+    <string name="recipe_short_description">Recipe short description</string>
+
+    <!--    DESSERTS-->
+    <array name="dessert_images">
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/icecream</item>
+        <item>@drawable/nice</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/icecream</item>
+        <item>@drawable/nice</item>
+    </array>
+
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice cream</item>
+        <item>Sundae</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice cream</item>
+        <item>Sundae</item>
+    </string-array>
+
+    <string-array name="dessert_description">
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Fro-yo is a premium self serve frozen yoghurt</item>
+        <item>Ice cream sandwiches have chocolates and vanilla fillings </item>
+        <item>Some awesome stuff!</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Fro-yo is a premium self serve frozen yoghurt</item>
+        <item>Ice cream sandwiches have chocolates and vanilla fillings </item>
+        <item>Some awesome stuff!</item>
+    </string-array>
+
+<!--    PASTRIES-->
+
+    <array name="pastries_images">
+        <item>@drawable/apple_pie</item>
+        <item>@drawable/cheese_cake</item>
+        <item>@drawable/chocolate_cake</item>
+        <item>@drawable/red_ribbon</item>
+        <item>@drawable/red_velvet</item>
+
+    </array>
+
+    <string-array name="pastries_title">
+        <item>Apple Pie</item>
+        <item>Cheese Cake</item>
+        <item>Chocolate Cake</item>
+        <item>Red Ribbon</item>
+        <item>Red Velvet</item>
+
+    </string-array>
+
+    <string-array name="pastries_description">
+        <item>An apple pie is a pie in which the principal filling ingredient is apple. It is often served with whipped cream, ice cream, or cheddar cheese.</item>
+        <item>Cheesecake is a sweet dessert consisting of one or more layers. The main, and thickest layer, consists of a mixture of soft, fresh cheese, eggs, and sugar.</item>
+        <item>Chocolate Cake has got to be the most craved recipe in the world! </item>
+        <item> This mouth-watering liquor-moistened chocolate cake, brimming with cherries, cream and generous strips of chocolate shavings is no doubt Red Ribbon\'s most popular and best-selling cake.</item>
+        <item>Red velvet cake is the queen of all layer cakes.</item>
+
+    </string-array>
+
+
+
+<!--    STORES-->
+    <array name="store_images">
+        <item>@drawable/artcaffe</item>
+        <item>@drawable/about_thyme</item>
+        <item>@drawable/graze_steakhouse</item>
+        <item>@drawable/mercado</item>
+        <item>@drawable/sankara</item>
+        <item>@drawable/chop_house</item>
+    </array>
+
+    <string-array name="store_names">
+        <item>Artcaffe</item>
+        <item>About Thyme</item>
+        <item>Graze Steakhouse-Sankara</item>
+        <item>Mercado</item>
+        <item>Artisan-Sankara</item>
+        <item>Chop House</item>
+    </string-array>
+
+    <string-array name="store_description">
+        <item>Artcaffe is a full service bakery, coffee shop, bar and casual dining restaurant,open daily from 7am to midnight that targets customers of all ages who care about quality, ambience, community and value for money in the products they consume and their experience.</item>
+        <item>A place to be!</item>
+        <item>Sankara Nairobi\'s signature restaurant, Graze, is designed to indulge your inner gourmand.</item>
+        <item>Passionate about food we wanted to bring rich and diverse cuisines to the city of Nairobi. No other cuisine stood out more to us than Mexican cuisine due to its complexity and diverse offering.</item>
+        <item>Artisan showcases the finest global cuisine with a live show kitchen and an outdoor terrace. </item>
+        <item>The Chophouse Restaurant presents an inventive culinary experience that weaves together a fusion of Kenyan, Asian and Mediterranean Haute Cuisine.</item>
+    </string-array>
+    <string-array name="store_ratings">
+        <item>3.5</item>
+        <item>3.2</item>
+        <item>4.5</item>
+        <item>3.1</item>
+        <item>4.0</item>
+        <item>4.3</item>
+    </string-array>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+</resources>
